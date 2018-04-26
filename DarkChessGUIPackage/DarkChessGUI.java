@@ -8,7 +8,7 @@ public class DarkChessGUI extends JFrame
 	public DarkChessGUI()
 	{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(300,100,1000,600);
+		setBounds(300,100,1200,600);
 		panellist=new JPanel[3];
 		panellist[0]=new StartMenuPanel(this);
 		panellist[1]=new SettingPanel(this);

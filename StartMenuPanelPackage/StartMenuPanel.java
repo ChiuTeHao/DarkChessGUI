@@ -11,7 +11,7 @@ public class StartMenuPanel extends JPanel implements ActionListener
 	{
 		setLayout(null);
 		button=new JButton();
-		button.setBounds(400,250,200,50);
+		button.setBounds(500,250,200,50);
 		button.setText("Start Game");
 		add(button);
 		this.root=root;
